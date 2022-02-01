@@ -1,1 +1,28 @@
-/*will add style soon 
+* {
+  background:#00B2CA;
+}
+
+.id-title, .timer, .button-div {
+  text-align: center;
+  color: beige;
+  font-family: 'Montserrat', 'sans-serif';
+}
+
+#start-button, #stop-button, #reset-button {
+ display: inline-block;
+ padding: 0.5em 2em;
+ border: 0.16em solid beige;
+ margin: 0 0.3em 0.3em 0;
+ box-sizing: border-box;
+ text-decoration: none;
+ text-transform: uppercase;
+ font-family: 'Montserrat', 'sans-serif';
+ font-weight: 400;
+ color: beige;
+ text-align: center;
+} 
+
+#floyd {
+  width: fit-content;
+  filter: drop-shadow(7px 7px 7px #666666);
+}
