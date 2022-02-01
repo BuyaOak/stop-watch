@@ -1,11 +1,17 @@
 * {
   background:#00B2CA;
+  font-family: 'Montserrat', 'sans-serif' !important;
 }
 
 .id-title, .timer, .button-div {
+  position: relative;
+  top: 120px;
   text-align: center;
-  color: beige;
-  font-family: 'Montserrat', 'sans-serif';
+  color: beige; 
+}
+
+.button-div {
+  text-align: center;
 }
 
 #start-button, #stop-button, #reset-button {
@@ -16,13 +22,22 @@
  box-sizing: border-box;
  text-decoration: none;
  text-transform: uppercase;
- font-family: 'Montserrat', 'sans-serif';
- font-weight: 400;
  color: beige;
  text-align: center;
-} 
+}
 
-#floyd {
-  width: fit-content;
-  filter: drop-shadow(7px 7px 7px #666666);
+.motto {
+  color: beige;
+  text-align: center;
+  position: relative;
+  top: 120px;
+}
+
+#thai-box {
+  position: absolute;
+  right: 20%;
+  bottom: .05%;
+  resize: none;
+  object-fit: scale-down;
+  height: 500px;
 }
